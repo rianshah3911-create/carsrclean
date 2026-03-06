@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>carsRclean | Mobile Detailing</title>
 
 <link rel="stylesheet" href="style.css">
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
+
 
 <!-- NAVBAR -->
 <nav class="navbar">
-    <div class="logo">
-    <img src="images/logo.png" alt="carsRclean Logo">
+
+<div class="logo">
+<img src="images/logo.png" alt="carsRclean Logo">
 </div>
-    <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Our Work</a></li>
-        <li><a href="#reviews">Reviews</a></li>
-        <li><a href="https://wa.me/254792884808" class="nav-btn">WhatsApp</a></li>
-    </ul>
+
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Our Work</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="https://wa.me/254792884808" class="nav-btn">WhatsApp</a></li>
+</ul>
+
 </nav>
+
 
 <!-- HERO -->
 <section class="hero">
-    <img src="images/hap.png" class="hero-img">
 
-    <div class="hero-content">
+<img src="images/hap.png" class="hero-img">
+
+<div class="hero-content">
 
 <img src="images/logo.png" alt="carsRclean Logo" class="hero-logo">
 
 <h1>PREMIUM MOBILE DETAILING</h1>
+
 <p>Showroom shine delivered to your location.</p>
-        <a href="https://wa.me/254792884808?text=Hello%20I%20would%20like%20to%20book%20a%20detailing%20service" class="cta">
-            GET IN TOUCH
-        </a>
-    </div>
+
+<a href="#services" class="cta">
+BOOK NOW
+</a>
+
+</div>
+
 </section>
 
-<!-- STATEMENT SECTION -->
+
+<!-- STATEMENT -->
 <section class="statement reveal">
-    <div class="statement-text">
-        WE BRING THE SHINE.<br>
+
+<div class="statement-text">
+WE BRING THE SHINE.<br>
 YOU KEEP YOUR <br>TIME.
-    </div>
-    <div class="statement-img">
-        <img src="images/m4.png">
-    </div>
+</div>
+
+<div class="statement-img">
+<img src="images/m4.png">
+</div>
+
 </section>
+
 
 <!-- SERVICES -->
 <section id="services" class="services">
@@ -57,52 +76,66 @@ YOU KEEP YOUR <br>TIME.
 <h2 class="section-title reveal">OUR SERVICES</h2>
 
 <div class="category-slider reveal">
-    <div class="slider-indicator"></div>
-    <div class="category active" data-type="full">FULL DETAIL</div>
-    <div class="category" data-type="exterior">EXTERIOR ONLY</div>
-    <div class="category" data-type="interior">INTERIOR ONLY</div>
+
+<div class="slider-indicator"></div>
+
+<div class="category active" data-type="full">FULL DETAIL</div>
+<div class="category" data-type="exterior">EXTERIOR ONLY</div>
+<div class="category" data-type="interior">INTERIOR ONLY</div>
+
 </div>
 
 <div id="cards-container" class="cards"></div>
 
 </section>
 
+
 <!-- PORTFOLIO -->
 <section id="portfolio" class="portfolio reveal">
+
 <h2 class="section-title">RECENT DETAILING PROJECTS</h2>
+
 <div class="gallery">
-    <img src="images/sample1.png">
-    <img src="images/sample2.png">
-    <img src="images/sample3.png">
+<img src="images/sample1.png">
+<img src="images/sample2.png">
+<img src="images/sample3.png">
 </div>
+
 </section>
+
 
 <!-- REVIEWS -->
 <section id="reviews" class="reviews reveal">
+
 <h2 class="section-title">CLIENT REVIEWS</h2>
 
 <div class="review-card">
-    <div class="stars">★★★★★</div>
-    <p>"Absolutely insane results. Looks brand new."</p>
-    <span>- John KIP</span>
+<div class="stars">★★★★★</div>
+<p>"Absolutely insane results. Looks brand new."</p>
+<span>- John KIP</span>
 </div>
 
 <div class="review-card">
-    <div class="stars">★★★★</div>
-    <p>"Professional and very convenient."</p>
-    <span>- Joseph Wambuyu</span>
+<div class="stars">★★★★</div>
+<p>"Professional and very convenient."</p>
+<span>- Joseph Wambuyu</span>
 </div>
 
 </section>
 
+
 <footer>
 
-<img src="images/logo.png" alt="carsRclean Logo" class="footer-logo">
+<img src="images/logo.png" class="footer-logo">
 
-<h2> GET IN TOUCH WITH US </h2><br>
+<h2>GET IN TOUCH WITH US</h2>
+
+<br>
 
 <a href="https://wa.me/254792884808">0792 884 808</a>
+
 <h3>OR</h3>
+
 <a href="https://wa.me/254716589961">0716 589 961</a>
 
 <br><br>
@@ -111,6 +144,30 @@ YOU KEEP YOUR <br>TIME.
 <p>POWERED BY KYRA DIGITAL KE</p>
 
 </footer>
+
+
+<!-- BOOKING POPUP -->
+
+<div id="bookingPopup" class="booking-popup">
+
+<div class="popup-box">
+
+<h2>Book Your Detail</h2>
+
+<input id="carModel" placeholder="Car Model (Example: Toyota Mark X)">
+
+<input type="date" id="bookingDate">
+<input type="time" id="bookingTime">
+
+<button id="confirmBooking">Confirm Booking</button>
+
+<button id="closePopup" class="close-btn">Cancel</button>
+
+</div>
+
+</div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
