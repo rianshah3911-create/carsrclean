@@ -58,6 +58,12 @@ font-weight:600;
 letter-spacing:1px;
 }
 
+.logo img{
+height:45px;
+width:auto;
+filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
+
 .logo span{
 color:var(--blue);
 }
@@ -147,6 +153,13 @@ color:white;
 .cta:hover{
 transform:scale(1.08);
 box-shadow:0 0 20px var(--blue);
+}
+
+.hero-logo{
+margin-top:20px;
+height:100px;
+width:auto;
+margin-bottom:5px;
 }
 
 /* ================= STATEMENT SECTION ================= */
@@ -362,6 +375,12 @@ font-size:13px;
 footer a{
 color:var(--blue);
 text-decoration:none;
+}
+
+.footer-logo{
+height:60px;
+width:auto;
+margin-bottom:15px;
 }
 
 /* ================= ANIMATIONS ================= */
